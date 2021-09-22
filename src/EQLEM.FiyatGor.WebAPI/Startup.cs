@@ -30,7 +30,7 @@ namespace EQLEM.FiyatGor.WebAPI
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "EQLEM.FiyatGor.WebAPI", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Eqlem.FiyatGor.WebAPI", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace EQLEM.FiyatGor.WebAPI
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "EQLEM.FiyatGor.WebAPI v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Eqlem.FiyatGor.WebAPI v1"));
             }
 
             app.UseHttpsRedirection();

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQLEM.FiyatGor.WebAPI", "EQLEM.FiyatGor.WebAPI\EQLEM.FiyatGor.WebAPI.csproj", "{B015539C-7D39-4207-906F-A744131BFB44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eqlem.FiyatGor.WebAPI", "EQLEM.FiyatGor.WebAPI\Eqlem.FiyatGor.WebAPI.csproj", "{B015539C-7D39-4207-906F-A744131BFB44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
